@@ -14614,12 +14614,12 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Jupyter &quot;magic methods&quot; -- only need to be run once per kernel restart</span>
@@ -14633,12 +14633,36 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>The autoreload extension is already loaded. To reload it, use:
+  %reload_ext autoreload
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># import python modules -- this cell needs to be run again if you make changes to any of the files</span>
@@ -14684,7 +14708,7 @@ b100-35577
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span> <span class="o">=</span> <span class="n">Dataset</span><span class="p">(</span><span class="s2">&quot;tags-universal.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;brown-universal.txt&quot;</span><span class="p">,</span> <span class="n">train_test_split</span><span class="o">=</span><span class="mf">0.8</span><span class="p">)</span>
@@ -14777,7 +14801,7 @@ len(subset) == 2  # because there are two sentences</code></pre>
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">key</span> <span class="o">=</span> <span class="s1">&#39;b100-38532&#39;</span>
@@ -14833,7 +14857,7 @@ tags:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are a total of </span><span class="si">{}</span><span class="s2"> samples of </span><span class="si">{}</span><span class="s2"> unique words in the corpus.&quot;</span>
@@ -14893,7 +14917,7 @@ There are 5521 words in the test set that are missing in the training set.
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># accessing words with Dataset.X and tags with Dataset.Y </span>
@@ -14952,7 +14976,7 @@ Labels 2: (&#39;CONJ&#39;, &#39;PRT&#39;, &#39;VERB&#39;, &#39;PRT&#39;, &#39;VE
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># use Dataset.stream() (word, tag) samples for the entire corpus</span>
@@ -15024,55 +15048,75 @@ Stream (word, tag) pairs:
 
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+
+<span class="k">def</span> <span class="nf">clean_word</span><span class="p">(</span><span class="n">word</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Clean a word by making lowercase and removing accents&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;[^a-zA-Z]&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span><span class="n">word</span><span class="o">.</span><span class="n">lower</span><span class="p">())</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[83]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
 
 <span class="k">def</span> <span class="nf">pair_counts</span><span class="p">(</span><span class="n">sequences_A</span><span class="p">,</span> <span class="n">sequences_B</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Return a dictionary keyed to each unique value in the first sequence list</span>
-<span class="sd">    that counts the number of occurrences of the corresponding value from the</span>
-<span class="sd">    second sequences list.</span>
-<span class="sd">    </span>
-<span class="sd">    For example, if sequences_A is tags and sequences_B is the corresponding</span>
-<span class="sd">    words, then if 1244 sequences contain the word &quot;time&quot; tagged as a NOUN, then</span>
-<span class="sd">    you should return a dictionary such that pair_counts[NOUN][time] == 1244</span>
+   <span class="sd">&quot;&quot;&quot;Return a dictionary keyed to each unique value in the first sequence list</span>
+<span class="sd">   that counts the number of occurrences of the corresponding value from the</span>
+<span class="sd">   second sequences list.</span>
+<span class="sd">   </span>
+<span class="sd">   For example, if sequences_A is tags and sequences_B is the corresponding</span>
+<span class="sd">   words, then if 1244 sequences contain the word &quot;time&quot; tagged as a NOUN, then</span>
+<span class="sd">   you should return a dictionary such that pair_counts[NOUN][time] == 1244</span>
 
-<span class="sd">    Parameters</span>
-<span class="sd">    ----------</span>
-<span class="sd">    sequences_A : list[str]</span>
-<span class="sd">       primary sequence to build a pair_counts nested dictionary</span>
-<span class="sd">    sequences_B : list[str]</span>
-<span class="sd">       secondary sequence to build a pair_counts nested dictionary</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Finish this function! - DONE</span>
-    <span class="n">counts</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="n">Counter</span><span class="p">)</span>
-    <span class="c1"># Flatten</span>
-    <span class="n">flat_seq_a</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="n">flat_seq_b</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">seq_a</span><span class="p">,</span> <span class="n">seq_b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">sequences_A</span><span class="p">,</span> <span class="n">sequences_B</span><span class="p">):</span>
-       <span class="n">flat_seq_a</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">seq_a</span><span class="p">)</span>
-       <span class="n">flat_seq_b</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">seq_b</span><span class="p">)</span>
-    <span class="c1"># Loop</span>
-    <span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">flat_seq_a</span><span class="p">,</span> <span class="n">flat_seq_b</span><span class="p">):</span>
-           <span class="n">tag_dict</span> <span class="o">=</span> <span class="n">counts</span><span class="p">[</span><span class="n">a</span><span class="p">]</span>
-           <span class="n">tag_dict</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="n">b</span><span class="p">])</span>
-           <span class="n">counts</span><span class="p">[</span><span class="n">a</span><span class="p">]</span> <span class="o">=</span> <span class="n">tag_dict</span>
-    <span class="k">return</span> <span class="n">counts</span>
+<span class="sd">   Parameters</span>
+<span class="sd">   ----------</span>
+<span class="sd">   sequences_A : list[str]</span>
+<span class="sd">      primary sequence to build a pair_counts nested dictionary</span>
+<span class="sd">   sequences_B : list[str]</span>
+<span class="sd">      secondary sequence to build a pair_counts nested dictionary</span>
+<span class="sd">   &quot;&quot;&quot;</span>
+   <span class="c1"># TODO: Finish this function! - DONE</span>
+   <span class="n">counts</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="n">Counter</span><span class="p">)</span>
+   <span class="c1"># Flatten</span>
+   <span class="k">for</span> <span class="n">element_a</span><span class="p">,</span> <span class="n">element_b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">sequences_A</span><span class="p">,</span> <span class="n">sequences_B</span><span class="p">):</span>
+      <span class="n">counts</span><span class="p">[</span><span class="n">element_a</span><span class="p">]</span><span class="o">.</span><span class="n">update</span><span class="p">([</span><span class="n">element_b</span><span class="p">])</span>
+   <span class="k">return</span> <span class="n">counts</span>
 
 
 <span class="c1"># Calculate C(t_i, w_i)</span>
-<span class="n">emission_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">)</span>
+<span class="n">tags</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">words</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">cleaned_words</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">tag</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">stream</span><span class="p">():</span>
+   <span class="n">tags</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tag</span><span class="p">)</span>
+   <span class="n">cleaned_words</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">clean_word</span><span class="p">(</span><span class="n">word</span><span class="p">))</span>
+   <span class="n">words</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">word</span><span class="p">)</span>
+
+<span class="n">emission_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">tags</span><span class="p">,</span> <span class="n">words</span><span class="p">)</span>
 
 <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">emission_counts</span><span class="p">)</span> <span class="o">==</span> <span class="mi">12</span><span class="p">,</span> \
-       <span class="s2">&quot;Uh oh. There should be 12 tags in your dictionary.&quot;</span>
+   <span class="s2">&quot;Uh oh. There should be 12 tags in your dictionary.&quot;</span>
 <span class="k">assert</span> <span class="nb">max</span><span class="p">(</span><span class="n">emission_counts</span><span class="p">[</span><span class="s2">&quot;NOUN&quot;</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="n">emission_counts</span><span class="p">[</span><span class="s2">&quot;NOUN&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">get</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;time&#39;</span><span class="p">,</span> \
-       <span class="s2">&quot;Hmmm...&#39;time&#39; is expected to be the most common NOUN.&quot;</span>
+   <span class="s2">&quot;Hmmm...&#39;time&#39; is expected to be the most common NOUN.&quot;</span>
 <span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;div class=&quot;alert alert-block alert-success&quot;&gt;Your emission counts look good!&lt;/div&gt;&#39;</span><span class="p">)</span>
 </pre></div>
 
@@ -15091,7 +15135,7 @@ Stream (word, tag) pairs:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[8]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[83]:</div>
 
 
 
@@ -15119,7 +15163,7 @@ Stream (word, tag) pairs:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[84]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Create a lookup table mfc_table where mfc_table[word] contains the tag label most frequently assigned to that word</span>
@@ -15142,8 +15186,9 @@ Stream (word, tag) pairs:
 
 <span class="c1"># TODO: calculate the frequency of each tag being assigned to each word (hint: similar, but not</span>
 <span class="c1"># the same as the emission probabilities) and use it to fill the mfc_table</span>
+<span class="k">assert</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">tags</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
 
-<span class="n">word_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span>
+<span class="n">word_counts</span> <span class="o">=</span> <span class="n">pair_counts</span><span class="p">(</span><span class="n">words</span><span class="p">,</span> <span class="n">tags</span><span class="p">)</span>
 
 <span class="n">mfc_table</span> <span class="o">=</span> <span class="p">{}</span> <span class="c1"># TODO - done: YOUR CODE HERE</span>
 <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">tag_table</span> <span class="ow">in</span> <span class="n">word_counts</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
@@ -15174,7 +15219,7 @@ Stream (word, tag) pairs:
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[9]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[84]:</div>
 
 
 
@@ -15201,7 +15246,7 @@ Stream (word, tag) pairs:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[85]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">replace_unknown</span><span class="p">(</span><span class="n">sequence</span><span class="p">):</span>
@@ -15234,7 +15279,7 @@ Stream (word, tag) pairs:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[86]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">testing_set</span><span class="o">.</span><span class="n">keys</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
@@ -15320,7 +15365,7 @@ Actual labels:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[87]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">accuracy</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">Y</span><span class="p">,</span> <span class="n">model</span><span class="p">):</span>
@@ -15368,7 +15413,7 @@ Actual labels:
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[88]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">mfc_training_acc</span> <span class="o">=</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">mfc_model</span><span class="p">)</span>
@@ -15410,7 +15455,7 @@ testing accuracy mfc_model: 93.01%
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[13]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[88]:</div>
 
 
 
@@ -15444,39 +15489,59 @@ $$t_i^n = \underset{t_i^n}{\mathrm{argmax}} \prod_{i=1}^n P(w_i|t_i) P(t_i|t_{i-
 $$P(tag_1) = \frac{C(tag_1)}{N}$$
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+
+<span class="k">def</span> <span class="nf">unigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Return a dictionary keyed to each unique value in the input sequence list that</span>
+<span class="sd">    counts the number of occurrences of the value in the sequences list. The sequences</span>
+<span class="sd">    collection should be a 2-dimensional array.</span>
+
+<span class="sd">    For example, if the tag NOUN appears 275558 times over all the input sequences,</span>
+<span class="sd">    then you should return a dictionary such that your_unigram_counts[NOUN] == 275558.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1"># TODO: Finish this function!</span>
+    <span class="c1"># flat_seq = []</span>
+    <span class="c1"># for seq in sequences:</span>
+    <span class="c1">#    flat_seq.extend(seq)</span>
+    <span class="c1"># return Counter(flat_seq)</span>
+    <span class="k">return</span> <span class="n">Counter</span><span class="p">(</span><span class="n">sequences</span><span class="p">)</span>
+
+
+<span class="c1"># TODO: call unigram_counts with a list of tag sequences from the training set</span>
+<span class="c1"># tag_unigrams = unigram_counts(data.training_set.Y)# TODO: YOUR CODE HERE)</span>
+<span class="n">tag_unigrams</span> <span class="o">=</span> <span class="n">unigram_counts</span><span class="p">(</span><span class="n">tags</span><span class="p">)</span>  <span class="c1"># TODO: YOUR CODE HERE)</span>
+
+<span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">==</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">tagset</span><span class="p">,</span> \
+    <span class="s2">&quot;Uh oh. It looks like your tag counts doesn&#39;t include all the tags!&quot;</span>
+<span class="k">assert</span> <span class="nb">min</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;X&#39;</span><span class="p">,</span> \
+    <span class="s2">&quot;Hmmm...&#39;X&#39; is expected to be the least common class&quot;</span>
+<span class="k">assert</span> <span class="nb">max</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;NOUN&#39;</span><span class="p">,</span> \
+    <span class="s2">&quot;Hmmm...&#39;NOUN&#39; is expected to be the most common class&quot;</span>
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;div class=&quot;alert alert-block alert-success&quot;&gt;Your tag unigrams look good!&lt;/div&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[90]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
-<span class="k">def</span> <span class="nf">unigram_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
-    <span class="sd">&quot;&quot;&quot;Return a dictionary keyed to each unique value in the input sequence list that</span>
-<span class="sd">    counts the number of occurrences of the value in the sequences list. The sequences</span>
-<span class="sd">    collection should be a 2-dimensional array.</span>
-<span class="sd">    </span>
-<span class="sd">    For example, if the tag NOUN appears 275558 times over all the input sequences,</span>
-<span class="sd">    then you should return a dictionary such that your_unigram_counts[NOUN] == 275558.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="c1"># TODO: Finish this function!</span>
-    <span class="n">flat_seq</span> <span class="o">=</span> <span class="p">[]</span>
-    <span class="k">for</span> <span class="n">seq</span> <span class="ow">in</span> <span class="n">sequences</span><span class="p">:</span>
-       <span class="n">flat_seq</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
-    <span class="k">return</span> <span class="n">Counter</span><span class="p">(</span><span class="n">flat_seq</span><span class="p">)</span>
-
-<span class="c1"># TODO: call unigram_counts with a list of tag sequences from the training set</span>
-<span class="n">tag_unigrams</span> <span class="o">=</span> <span class="n">unigram_counts</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span><span class="c1"># TODO: YOUR CODE HERE)</span>
-
-<span class="k">assert</span> <span class="nb">set</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">keys</span><span class="p">())</span> <span class="o">==</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">tagset</span><span class="p">,</span> \
-       <span class="s2">&quot;Uh oh. It looks like your tag counts doesn&#39;t include all the tags!&quot;</span>
-<span class="k">assert</span> <span class="nb">min</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;X&#39;</span><span class="p">,</span> \
-       <span class="s2">&quot;Hmmm...&#39;X&#39; is expected to be the least common class&quot;</span>
-<span class="k">assert</span> <span class="nb">max</span><span class="p">(</span><span class="n">tag_unigrams</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">tag_unigrams</span><span class="o">.</span><span class="n">get</span><span class="p">)</span> <span class="o">==</span> <span class="s1">&#39;NOUN&#39;</span><span class="p">,</span> \
-       <span class="s2">&quot;Hmmm...&#39;NOUN&#39; is expected to be the most common class&quot;</span>
-<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;div class=&quot;alert alert-block alert-success&quot;&gt;Your tag unigrams look good!&lt;/div&gt;&#39;</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -15494,7 +15559,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[14]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[90]:</div>
 
 
 
@@ -15521,7 +15586,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[91]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
@@ -15572,7 +15637,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[15]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[91]:</div>
 
 
 
@@ -15599,7 +15664,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[92]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">starting_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -15640,7 +15705,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[92]:</div>
 
 
 
@@ -15667,7 +15732,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[93]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">ending_counts</span><span class="p">(</span><span class="n">sequences</span><span class="p">):</span>
@@ -15708,7 +15773,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[93]:</div>
 
 
 
@@ -15753,7 +15818,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[94]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">basic_model</span> <span class="o">=</span> <span class="n">HiddenMarkovModel</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;base-hmm-tagger&quot;</span><span class="p">)</span>
@@ -15768,7 +15833,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
        <span class="n">n_emissions</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">word_counts</span><span class="o">.</span><span class="n">values</span><span class="p">())</span>
        <span class="n">probs</span> <span class="o">=</span> <span class="p">{}</span>
        <span class="k">for</span> <span class="n">word</span><span class="p">,</span> <span class="n">cnt</span> <span class="ow">in</span> <span class="n">word_counts</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-           <span class="n">probs</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="n">cnt</span> <span class="o">/</span> <span class="n">n_emissions</span>
+           <span class="n">probs</span><span class="p">[</span><span class="n">word</span><span class="p">]</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span> <span class="o">*</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="n">n_emissions</span>
        <span class="n">tag_emissions</span> <span class="o">=</span> <span class="n">pom</span><span class="o">.</span><span class="n">DiscreteDistribution</span><span class="p">(</span><span class="n">probs</span><span class="p">)</span>
        <span class="n">state</span> <span class="o">=</span> <span class="n">pom</span><span class="o">.</span><span class="n">State</span><span class="p">(</span><span class="n">tag_emissions</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="nb">str</span><span class="p">(</span><span class="n">tag</span><span class="p">))</span>
        <span class="n">state_map</span><span class="p">[</span><span class="n">tag</span><span class="p">]</span> <span class="o">=</span> <span class="n">state</span>
@@ -15783,15 +15848,15 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 
 <span class="n">n_tags</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">tag</span><span class="p">,</span> <span class="n">cnt</span> <span class="ow">in</span> <span class="n">tag_starts</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-       <span class="n">prob</span> <span class="o">=</span> <span class="n">cnt</span> <span class="o">/</span> <span class="n">n_tags</span>
+       <span class="n">prob</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span> <span class="o">*</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="n">n_tags</span>
        <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">basic_model</span><span class="o">.</span><span class="n">start</span><span class="p">,</span> <span class="n">state_map</span><span class="p">[</span><span class="n">tag</span><span class="p">],</span> <span class="n">prob</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="p">(</span><span class="n">tag1</span><span class="p">,</span> <span class="n">tag2</span><span class="p">),</span> <span class="n">bigram_cnt</span> <span class="ow">in</span> <span class="n">tag_bigrams</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-       <span class="n">prob</span> <span class="o">=</span> <span class="n">bigram_cnt</span> <span class="o">/</span> <span class="n">tag_unigrams</span><span class="p">[</span><span class="n">tag1</span><span class="p">]</span>
+       <span class="n">prob</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">bigram_cnt</span><span class="p">)</span> <span class="o">*</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="n">tag_unigrams</span><span class="p">[</span><span class="n">tag1</span><span class="p">]</span>
        <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">state_map</span><span class="p">[</span><span class="n">tag1</span><span class="p">],</span> <span class="n">state_map</span><span class="p">[</span><span class="n">tag2</span><span class="p">],</span> <span class="n">prob</span><span class="p">)</span>
 
 <span class="k">for</span> <span class="n">tag</span><span class="p">,</span> <span class="n">cnt</span> <span class="ow">in</span> <span class="n">tag_ends</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
-       <span class="n">prob</span> <span class="o">=</span> <span class="n">cnt</span> <span class="o">/</span> <span class="n">n_tags</span>
+       <span class="n">prob</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">cnt</span><span class="p">)</span> <span class="o">*</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="n">n_tags</span>
        <span class="n">basic_model</span><span class="o">.</span><span class="n">add_transition</span><span class="p">(</span><span class="n">state_map</span><span class="p">[</span><span class="n">tag</span><span class="p">],</span> <span class="n">basic_model</span><span class="o">.</span><span class="n">end</span><span class="p">,</span> <span class="n">prob</span><span class="p">)</span>
 
 
@@ -15822,7 +15887,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[94]:</div>
 
 
 
@@ -15841,7 +15906,7 @@ $$P(tag_1) = \frac{C(tag_1)}{N}$$
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[95]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">hmm_training_acc</span> <span class="o">=</span> <span class="n">accuracy</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">X</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">training_set</span><span class="o">.</span><span class="n">Y</span><span class="p">,</span> <span class="n">basic_model</span><span class="p">)</span>
@@ -15917,7 +15982,7 @@ testing accuracy basic hmm model: 94.64%
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">data</span><span class="o">.</span><span class="n">testing_set</span><span class="o">.</span><span class="n">keys</span><span class="p">[:</span><span class="mi">3</span><span class="p">]:</span>
